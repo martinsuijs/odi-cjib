@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.05" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="y23n97YAihpNy/H0IN6qFA==" exportKeySalt="08e4c1e2-0d99-413b-b84a-ad9cb0d3b130" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="BwhPa41KqE554w19ChJt/w==" exportKeySalt="29e0a6b7-0e90-422b-8817-908bb1bd9c66" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpModel">
 		<Field name="AliasLength" type="com.sunopsis.sql.DbInt"><![CDATA[35]]></Field>
 	<Field name="BegVersion" type="java.sql.Timestamp">null</Field>
@@ -25,7 +25,7 @@
 	<Field name="ITrtSkm" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITxtMod" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LagentName" type="java.lang.String">null</Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-09-22 10:06:09.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-09-23 09:54:30.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LschemaName" type="java.lang.String"><![CDATA[DWH_OWNER]]></Field>
 	<Field name="ModName" type="java.lang.String"><![CDATA[DWH]]></Field>
@@ -71,9 +71,25 @@
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
 		<Field name="Type" type="java.lang.String"><![CDATA[SnpSubModel]]></Field>
 	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DM]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[150a33c7-e0b1-4908-9400-fe40551ad192]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3cd908992640dce6e3e762ce7983826bf9c9630b]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[DM/SMOD_DM.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpSubModel]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[ODS]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[52221411-93da-4a5d-994d-2a1b05fcb8bc]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[1dec3fe7e5b33c711bf70527f2c6f31bf12bc6ac]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[ODS/SMOD_ODS.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpSubModel]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[STG]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[f65158b0-f890-4b6e-926d-90549636f29b]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[3274313e9b7ecc000098ab3a8c20d72c125bd024]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[cb949f99dd92163d41739f1ada95500534edc590]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[STG/SMOD_STG.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
